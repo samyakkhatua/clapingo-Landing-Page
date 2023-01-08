@@ -1,13 +1,12 @@
-import { useState } from 'react'
-import './App.css'
+import { useState } from "react";
+import "./App.css";
 
 function App() {
-
   return (
     <div className="App">
-      Clapingo
+      <h1 className="text-3xl font-bold underline">Clapingo!</h1>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
