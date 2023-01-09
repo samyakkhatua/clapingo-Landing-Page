@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-
 export default function Login() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
@@ -9,7 +8,7 @@ export default function Login() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // store the user in localStorage
+    
     localStorage.setItem("username", username);
     localStorage.setItem("password", password);
     navigate("/user");
@@ -18,7 +17,9 @@ export default function Login() {
   return (
     <div className="mt-64">
       <div className="container mx-auto lg:px-96">
-      <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl">Login</h1>
+        <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl">
+          Login
+        </h1>
 
         <form onSubmit={handleSubmit}>
           <div class="mb-6">
@@ -34,7 +35,7 @@ export default function Login() {
               class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5 "
               placeholder="Samyak"
               onChange={({ target }) => setUsername(target.value)}
-              //   required
+              required
             />
           </div>
 
@@ -51,7 +52,7 @@ export default function Login() {
               class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5 "
               placeholder="•••••••••"
               onChange={({ target }) => setPassword(target.value)}
-              //   required
+              required
             />
           </div>
 

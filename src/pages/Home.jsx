@@ -1,15 +1,15 @@
 import { useEffect, useState } from "react";
-import { useNavigate  } from 'react-router-dom';
+// import { useNavigate, Redirect } from "react-router-dom";
 
 import Hero from "../components/Hero/Hero";
 import HowItWorks from "../components/HowItWorks/HowItWorks";
 import Navbar from "../components/Navbar/Navbar";
 import Offer from "../components/Offer/Offer";
 import Stats from "../components/Stats/Stats";
+import LoggedIn from "../pages/LoggedIn";
 
 function Home() {
   const [authenticated, setauthenticated] = useState(false);
-  let navigate = useNavigate();
 
   useEffect(() => {
     const loggedInUserName = localStorage.getItem("username");
@@ -24,12 +24,8 @@ function Home() {
 
   return (
     <div className="">
+      {authenticated && <LoggedIn />}
       {!authenticated && (
-        navigate('/user')
-      )
-
-      }
-      {authenticated && (
         <>
           <Navbar />
           <Hero />
