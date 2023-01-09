@@ -1,20 +1,21 @@
-import { useState } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
-import Hero from "./components/Hero/Hero";
-import HowItWorks from "./components/HowItWorks/HowItWorks";
-import Navbar from "./components/Navbar/Navbar";
-import Offer from "./components/Offer/Offer";
-import Stats from "./components/Stats/Stats";
+
+import Home from "./pages/Home";
+import Login from "./pages/Login";
 
 function App() {
   return (
-    <div className="">
-      <Navbar />
-      <Hero />
-      <Stats />
-      <Offer />
-      <HowItWorks />
-    </div>
+    <Router>
+      <Home />
+      <Routes>
+        <Route path="/" element={<Home />}>
+        <Route exact path="login" element={<Login />} />
+        </Route>
+      </Routes>
+    </Router>
+
+    
   );
 }
 
