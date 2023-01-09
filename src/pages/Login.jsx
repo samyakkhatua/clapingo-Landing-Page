@@ -1,12 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 
 export default function Login() {
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
+  const navigate = useNavigate();
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // store the user in localStorage
+    localStorage.setItem("username", username);
+    localStorage.setItem("password", password);
+    navigate("/user");
+  };
+
   return (
     <div className="mt-64">
       <div className="container mx-auto md:px-96">
-        <form>
+        <form onSubmit={handleSubmit}>
           <div class="mb-6">
             <label
               for="first_name"
@@ -19,7 +32,8 @@ export default function Login() {
               id="first_name"
               class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5 "
               placeholder="Samyak"
-              required
+              onChange={({ target }) => setUsername(target.value)}
+              //   required
             />
           </div>
 
@@ -35,7 +49,8 @@ export default function Login() {
               id="password"
               class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5 "
               placeholder="•••••••••"
-              required
+              onChange={({ target }) => setPassword(target.value)}
+              //   required
             />
           </div>
 
@@ -43,7 +58,8 @@ export default function Login() {
             type="submit"
             class="text-white bg-teal-500 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center "
           >
-            <Link to="/user">Login</Link>
+            {/* <Link to="/user">Login</Link> */}
+            Login
           </button>
         </form>
       </div>
