@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Offer() {
   return (
-    <div className="mt-[100px] ">
+    <div className="mt-[100px] px-32">
       <p className="text-4xl font-extrabold flex items-center justify-center">
         What we offer?
       </p>

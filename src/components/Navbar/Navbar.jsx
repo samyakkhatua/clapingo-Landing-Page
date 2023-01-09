@@ -2,8 +2,8 @@ import React from "react";
 
 function Navbar() {
   return (
-    <div className="">
-      <nav class="bg-white border-gray-200 px-2 py-2.5 rounded">
+    <div className="px-32">
+      <nav class="bg-white border-gray-200 py-2.5 rounded">
         <div class="container flex flex-wrap items-center justify-between mx-auto">
           
           {/* logo */}

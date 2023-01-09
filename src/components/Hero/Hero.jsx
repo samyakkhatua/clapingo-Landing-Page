@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <div className="flex pt-16">
+    <div className="flex pt-16 px-32">
       {/* Headline */}
       <div className="w-[60%]">
         <h1 class="mb-4 text4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl">

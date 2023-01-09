@@ -8,7 +8,7 @@ import Stats from "./components/Stats/Stats";
 
 function App() {
   return (
-    <div className="px-32">
+    <div className="">
       <Navbar />
       <Hero />
       <Stats />

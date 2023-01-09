@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Stats() {
   return (
-    <div className="mt-20 flex bg-slate-200 bg-gradient-to-r from-teal-500 via-white to-white">
+    <div className="mt-20 px-32 flex bg-slate-200 bg-gradient-to-r from-teal-500 via-white to-white">
       {/* stats boxes */}
       <div className="flex flex-wrap w-[50%] my-20 mr-20">
         <div className="flex gap-6 mb-6">
