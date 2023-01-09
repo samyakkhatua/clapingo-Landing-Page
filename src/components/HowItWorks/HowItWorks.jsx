@@ -40,7 +40,7 @@ export default function HowItWorks() {
           <div className="absolute left-[690px]">
             <img
               className="w-[300px] pt-16"
-              src="src/components/HowItWorks/clapingoAppScreenshot.png"
+              src="https://github.com/samyakkhatua/clapingo-Landing-Page/blob/main/src/components/HowItWorks/clapingoAppScreenshot.png?raw=true"
               alt="clapingo App Screenshot"
             />
           <div className="absolute bg-white w-[350px] h-24 z-10 blur-xl left-[0px] bottom-[-30px]"></div>

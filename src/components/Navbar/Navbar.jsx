@@ -11,7 +11,7 @@ function Navbar() {
           {/* logo */}
           <a href="" class="flex items-center">
             <img
-              src="src/components/Navbar/clapingoLogo.png"
+              src="https://raw.githubusercontent.com/samyakkhatua/clapingo-Landing-Page/main/src/components/Navbar/clapingoLogo.png"
               class="h-6 mr-3 sm:h-9"
               alt="Clapingo Logo"
             />
