@@ -34,7 +34,7 @@ export default function Hero() {
       <div className="ml-24 mt-10">
         <img
           class="h-auto max-w-lg rounded-xl w-[400px]"
-          src="src/components/Hero/hero image.jpeg"
+          src="https://raw.githubusercontent.com/samyakkhatua/clapingo-Landing-Page/main/src/components/Hero/hero%20image.jpeg"
           alt="hero image"
         />
       </div>
