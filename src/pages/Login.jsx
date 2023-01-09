@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 
 export default function Login() {
   return (
@@ -41,7 +43,7 @@ export default function Login() {
             type="submit"
             class="text-white bg-teal-500 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center "
           >
-            Submit
+            <Link to="/user">Login</Link>
           </button>
         </form>
       </div>
