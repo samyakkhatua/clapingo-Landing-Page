@@ -17,7 +17,9 @@ export default function Login() {
 
   return (
     <div className="mt-64">
-      <div className="container mx-auto md:px-96">
+      <div className="container mx-auto lg:px-96">
+      <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl">Login</h1>
+
         <form onSubmit={handleSubmit}>
           <div class="mb-6">
             <label
