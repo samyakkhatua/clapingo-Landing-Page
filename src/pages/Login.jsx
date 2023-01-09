@@ -60,7 +60,6 @@ export default function Login() {
             type="submit"
             class="text-white bg-teal-500 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center "
           >
-            {/* <Link to="/user">Login</Link> */}
             Login
           </button>
         </form>

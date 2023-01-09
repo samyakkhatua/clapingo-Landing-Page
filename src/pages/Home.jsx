@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-// import { useNavigate, Redirect } from "react-router-dom";
 
 import Hero from "../components/Hero/Hero";
 import HowItWorks from "../components/HowItWorks/HowItWorks";
