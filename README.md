@@ -1,47 +1,78 @@
-# Attendee
-[Insert a brief description of your project]
+# Clapingo Landing Page
+## Hone your english speaking skills over one-on-one video call
 
-Getting Started
-These instructions w ill get you a copy of the project up and running on your local machine for development and testing purposes.
+In this project, I used React JS to build a landing page. React is a popular JavaScript library for building user interfaces, especially for single-page applications. It allows for the creation of reusable UI components, making it easy to build and maintain a landing page.
 
-Prerequisites
-[List any dependencies or prerequisites for your project]
+### Deployed Link : https://clapingoapp.vercel.app/
+### Github Repo : https://github.com/samyakkhatua/clapingo-Landing-Page
 
-Installing
-[Provide step-by-step instructions on how to install your project]
 
-Running the tests
-[Explain how to run the automated tests for this system]
+## Demo
 
-Break down into end to end tests
-[Explain what these tests test and why]
+![Alt Text](https://media.giphy.com/media/AXK99IqSdSMjbmP4Mn/giphy.gif)
 
-And coding style tests
-[Explain what these tests test and why]
 
-Deployment
-[Add notes about how to deploy this on a live system]
+## Tech Stack
 
-Built With
-[List the technologies or frameworks used to build the project]
+ReactJS, React-Router-Dom, TailwindCSS, Vite
 
-Contributing
-[Include contribution guidelines for others who want to contribute to your project]
 
-Versioning
-[Explain how you handle versioning]
+## Run Locally
 
-Authors
-[List the authors of the project]
+Clone the project
 
-License
-[Include information about the license for your project]
+```bash
+  git clone https://github.com/samyakkhatua/clapingo-Landing-Page 
+```
 
-Acknowledgments
-[Include any credits or acknowledgments for resources or assistance you used in the project]
-## Acknowledgements
+Go to the project directory
 
- - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+```bash
+  cd clapingo-Landing-Page
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
+
+Build and bundling your resources for production 
+
+```bash
+  npm run build
+```
+
+
+
+## Features
+
+- a Modern UI/UX landing page in React JS with Tailwind CSS
+- consisting of a stunning hero section, high-quality assets and gradients, business stats
+- reusable sections with call-to-action buttons and more!
+
+
+
+## Feedback
+
+If you have any feedback, please reach out to us at hello@samyakkhatua.in
+
+
+## Authors
+
+- [@samyakkhatua](https://www.github.com/samyakkhatua)
+
+## Roadmap
+
+- Add Log out button
+
+- Add conditional rendering on /user page
+
+
 
