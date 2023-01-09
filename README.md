@@ -9,7 +9,7 @@ In this project, I used React JS to build a landing page. React is a popular Jav
 
 ## Demo
 
-![Alt Text](https://media.giphy.com/media/AXK99IqSdSMjbmP4Mn/giphy.gif)
+![Alt Text](https://media.giphy.com/media/NVxptNCBnBHKf8yroD/giphy-downsized-large.gif)
 
 
 ## Tech Stack
